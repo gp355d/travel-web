@@ -1,0 +1,404 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+
+
+
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrap {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1024px;
+    height: 380px;
+    background: url(../img/Hero.png) no-repeat;
+    /*position:absolute;*/
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    line-height: 190px;
+    font-size: 40px;
+    letter-spacing: 3.89px;
+    height: 225px;
+    /*    letter-spacing: 3.89px;
+    margin-bottom: 125px;
+    margin-top: 30px;*/
+}
+
+.selectoption {
+    width: 452px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    position: relative;
+    top: 50%;
+    left: 28%;
+    font-family: .PingFangTC-Regular;
+    font-size: 18px;
+    color: #000000;
+    line-height: 21px;
+}
+
+.popular {
+    width: 800px;
+    height: 112px;
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: 11%;
+}
+
+.title {
+    padding-top: 20px;
+    padding-left: 26px;
+    padding-bottom: 14px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-family: .AppleSystemUIFont;
+    font-size: 18px;
+    color: #000000;
+}
+
+.purplebtn {
+    background: #8A82CC;
+}
+
+.beigebtn {
+    background: #FFA782;
+}
+
+.yellowbtn {
+    background: #F5D105;
+}
+
+.primarybtn {
+    background: #559AC8;
+}
+
+.btnstyle {
+    border-radius: 5px;
+    border: 0px;
+    width: 130px;
+    height: 42px;
+    margin-left: 50px;
+    font-family: PingFangTC-Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.icon {
+    display: block;
+    margin: auto;
+    padding-top: 87px;
+    position: absolute;
+    right: 50%;
+    top: -100px;
+}
+
+.content {
+    /*width: 1667px;*/
+    height: 30px;
+}
+
+.t {
+    width: 900px;
+    margin: 0 auto;
+    height: 110px;
+}
+
+.line {
+    border: 1px dashed #559AC8;
+    z-index: -1;
+    position: relative;
+    top: 100%;
+}
+
+.countryname {
+    text-align: center;
+    font-family: .SFNSDisplay;
+    font-size: 36px;
+    color: #8A82CC;
+}
+
+.countrybox {
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+}
+
+.countrytitle {
+    position: relative;
+    top: 70%;
+    left: 10%;
+    font-family: .SFNSDisplay;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.phone {
+    padding-left: 2px;
+    padding-right: 3px;
+}
+
+
+
+
+
+
+/*  ul li{
+    float: left;
+    display: inline;
+    width: 464px;
+    height: 155px;
+  }*/
+
+.info {}
+
+.detialinfo {
+    width: 435px;
+    margin: 0 auto;
+}
+
+input[type=button]:hover {
+    border: 1px solid yellow;
+}
+
+.list {
+    width: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.source {
+    font-family: .AppleSystemUIFont;
+    font-size: 14px;
+    color: #FFD366;
+}
+
+.right {
+    float: right;
+    margin-right: 29px;
+}
+
+.picture {
+    width: 464px;
+    height: 155px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.areaName {
+    text-align: center;
+    margin-top: 50px;
+    font-family: .SFNSDisplay;
+    font-size: 36px;
+    color: #8A82CC;
+}
+
+.ticklayout {
+    float: right;
+    padding-right: 16px;
+}
+
+.iconset {}
+
+.countryInfo {
+    width: 464px;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.countryInfo p {
+    margin-top: 2px;
+    font-family: .AppleSystemUIFont;
+    font-size: 16px;
+    color: #000000;
+}
+
+.countrybox {
+    /*overflow: hidden;*/
+    position: relative;
+    float: left;
+    width: 464px;
+    height: 273px;
+    /*box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);*/
+    margin: 18px 24px;
+}
+
+.coutryposition {
+    position: relative;
+    left: 83%;
+    top: 67%;
+    font-family: .PingFangTC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.gotop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.footer {
+    width: auto;
+    height: 90px;
+    background: #559AC8;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+}
